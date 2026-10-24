@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="99cebf476396476a90a27dd45d0651cc" Name="Diagram1">
+        <EntityTypeShape EntityType="AromaHomeModel.AccessCards" Width="1.5" PointX="3.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.AccessLogs" Width="1.5" PointX="6" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.HistoryMaterialCount" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.HistoryMinPriceProducts" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.ListsOfMaterials" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Materials" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.OrderItem" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Orders" Width="1.5" PointX="3.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Partners" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Products" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Providers" Width="1.5" PointX="3" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Roles" Width="1.5" PointX="1.5" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.SalesHistory" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AromaHomeModel.Workers" Width="1.5" PointX="1.5" PointY="17.375" IsExpanded="true" />
+        <AssociationConnector Association="AromaHomeModel.FK__AccessCar__Worke__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__AccessLog__Acces__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__HistoryMa__Mater__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__HistoryMi__Produ__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__ListsOfMa__Mater__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__ListsOfMa__Produ__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__OrderItem__Order__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__OrderItem__Produ__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__Orders__ManagerI__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__Orders__PartnerI__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__SalesHist__Partn__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__SalesHist__Produ__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.FK__Workers__RoleId__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="AromaHomeModel.MaterialProviders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

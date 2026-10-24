@@ -1,0 +1,109 @@
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Сборки и результаты компиляции
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]uild/
+[Dd]ist/
+
+# Файлы Visual Studio и расширений
+*.cache
+*.log
+*.tmp_proj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Автоматически создаваемые файлы
+GeneratedFiles/
+*.g.cs
+*.g.i.cs
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.res
+*.resources
+*.tlog/
+*.lastbuildstate
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Тестовые результаты
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Публикация
+publish/
+app.publish/
+*.publish.xml
+*.azurePubxml
+
+# Временные файлы редакторов
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+
+# Локальные базы данных и журналы
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Архивы и резервные копии
+*.bak
+*.old
+*.backup
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Файлы упаковки и установщики
+*.msi
+*.exe
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
